@@ -1,5 +1,11 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import gerandy from "../../assets/gerandy profile.jpg";
+import erwin from "../../assets/erwinProfile.png";
+import cj from "../../assets/john profile.jpg";
+import noer from "../../assets/noer profile.png";
+import reween from "../../assets/reween profile.jpg";
+import fb from "../../assets/1.png";
+import ig from "../../assets/2.png";
 
 export const About = () => {
   const frontendSkillsGerandy = [
@@ -78,13 +84,13 @@ export const About = () => {
                  <a href="https://www.facebook.com/gerandy.buensuceso" className="ml-3 ">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={fb} alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
                   <a href="https://www.instagram.com/_luvsato/">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={ig} alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
               </div>
@@ -174,7 +180,7 @@ export const About = () => {
             {/*======================================2ND USER=========================================================*/}
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
               <div className="flex items-center">
-                <img className="  h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="src/assets/erwinProfile.png">
+                <img className="  h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src={erwin}>
                 </img>
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Erwin M. Vallez
@@ -184,13 +190,13 @@ export const About = () => {
                  <a href="https://www.facebook.com/Weweeeng" className="ml-3 ">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={fb} alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
                   <a href="https://www.instagram.com/_weweeeng/">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={ig} alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
               </div>
@@ -269,7 +275,7 @@ export const About = () => {
             {/*======================================3RD USER=========================================================*/}
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <div className="flex items-center">
-                <img className="  h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="src/assets/john profile.jpg">
+                <img className="  h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src={cj}>
                 </img>
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     John Car Michael D. Delos Reyes
@@ -279,13 +285,13 @@ export const About = () => {
                  <a href="https://www.facebook.com/profile.php?id=100069194364309" className="ml-3 ">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={fb} alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
                   <a href="#ig">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={ig} alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
               </div>
@@ -365,7 +371,7 @@ export const About = () => {
             {/*======================================4TH USER=========================================================*/}
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <div className="flex items-center">
-                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="src/assets/noer profile.png">
+                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src={noer}>
                 </img>
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Noer Jan C. Cleofe
@@ -375,13 +381,13 @@ export const About = () => {
                  <a href="https://www.facebook.com/noer.jan.2024" className="ml-3 ">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={fb} alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
                   <a href="https://www.instagram.com/injecleofe/">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={ig} alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
               </div>
@@ -462,7 +468,7 @@ export const About = () => {
             {/*======================================5TH USER=========================================================*/}
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <div className="flex items-center">
-                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src="src/assets/reween profile.jpg">
+                <img className=" h-40 w-40 mr-5 rounded-[100px] border-3 border-solid border-purple-600" src={reween}>
                 </img>
                   <p className="mt-6 text-[30px] font-bold mb-8 bg-gradient-to-r from-violet-500 to-purple-400 bg-clip-text text-transparent text-center">
                     Reween O. Rambonanza
@@ -472,13 +478,13 @@ export const About = () => {
                  <a href="https://www.facebook.com/reween.rambonanza" className="ml-3 ">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/1.png" alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={fb} alt="fb" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
                   <a href="https://www.instagram.com/rwnrambonanza/">
                       <button
                         type="button" className="  hover:scale-110 px-2 py-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                          <img src="src/assets/2.png" alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
+                          <img src={ig} alt="ig" className="mb-2 inline-block rounded h-8 w-8 hover:shadow-[0_2px_8px_rgba(192,132,252,0.4)]"/>
                       </button>
                   </a>
               </div>
